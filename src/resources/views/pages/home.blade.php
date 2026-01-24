@@ -1,0 +1,13 @@
+@extends('layouts.app')
+@section('title', 'Home Page')
+@section('content')
+    @include('partials.home.header')
+    @include('partials.home.about')
+    @include('partials.home.service')
+    @include('partials.home.pricing')
+    @include('partials.home.cta')
+    @include('partials.home.latest')
+    @include('partials.home.brand')
+    @include('partials.home.contact')
+    @include('partials.home.map')
+@endsection
